@@ -1,7 +1,4 @@
-# Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
-
-* Студент: [Алексей Симоненко](https://up.htmlacademy.ru/adaptive/10/user/6).
-* Наставник: [Алексей 🐱 Малейков](https://up.htmlacademy.ru/adaptive/10/user/4839).
+# Личный проект «Mishka» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 ---
 
