@@ -1,10 +1,20 @@
+# Файлы и папки операционной системы
 .DS_Store
-.idea
-*.ai
-*.log
-*.pdf
-*.psd
-*.sublime*
-css/*.css
-node_modules/
 Thumbs.db
+
+# Файлы редактора
+.idea
+*.sublime*
+.vscode
+
+# Файлы макетов
+*.ai
+*.psd
+
+# Вспомогательные файлы
+*.log*
+*.pdf
+node_modules/
+
+# Папка с собранными файлами проекта
+build/

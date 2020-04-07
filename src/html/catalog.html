@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Каталог - Mishka</title>
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body class="page">
     <header class="page-header">
@@ -17,7 +18,7 @@
               <a class="site-list__link">Каталог товаров</a>
             </li>
             <li class="site-list__item">
-              <a class="site-list__link">Вязание на заказ</a>
+              <a class="site-list__link" href="form.html">Вязание на заказ</a>
             </li>
           </ul>
           <ul class="main-nav__list user-list">
@@ -33,7 +34,7 @@
     </header>
 
     <main class="page-main">
-      <h1 class="page-main__title">Каталог товаров</h1>
+      <h1 class="page-main__heading">Каталог товаров</h1>
 
       <section class="catalog">
         <div class="catalog__wrapper">
@@ -59,7 +60,7 @@
 
       <section class="production">
         <div class="production__wrapper">
-          <h2 class="production__title">Процесс производства</h2>
+          <h2 class="production__heading">Процесс производства</h2>
           <img class="production__image" src="" width="" height="" alt="Видео процесса производства вязаных игрушек">
           <p class="production__description">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
           <a class="production__button button">Сделать заказ</a>
@@ -67,29 +68,6 @@
       </section>
     </main>
 
-    <footer class="page-footer">
-      <div class="page-footer__wrapper">
-        <a class="page-footer__logo">
-          <img class="page-footer__logo-image" src="" width="" height="" alt="Логотип Mishka">
-        </a>
-        <div class="page-footer__social social">
-          <ul class="social__list">
-            <li class="social__item">
-              <a class="social__link social__link--instagram">Instagram</a>
-            </li>
-            <li class="social__item">
-              <a class="social__link social__link--facebook">Facebook</a>
-            </li>
-            <li class="social__item">
-              <a class="social__link social__link--twitter">Twitter</a>
-            </li>
-          </ul>
-        </div>
-        <div class="page-footer__copyright copyright">
-          <b class="copyright__text">Разработано:</b>
-          <a class="copyright__link">HTML Academy</a>
-        </div>
-      </div>
-    </footer>
+    @@include("sections/footer.html")
   </body>
 </html>

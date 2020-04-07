@@ -1,0 +1,19 @@
+@import "blocks/button";
+
+body {
+  display: grid;
+  transition: all 0.2s ease-in;
+  animation-name: test;
+}
+
+.page-header {
+  background-color: red;
+}
+
+.page-main {
+  background-color: green;
+}
+
+.page-footer {
+  background-color: magenta;
+}

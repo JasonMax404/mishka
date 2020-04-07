@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <title>Вязание на заказ - Mishka</title>
+    <link rel="stylesheet" href="css/main.css">
   </head>
-  <body>
+  <body class="page">
     <header class="page-header">
       <a class="page-header__logo" href="index.html">
         <img class="page-header__logo-image" src="" width="" height="" alt="Логотип Mishka">
@@ -33,13 +34,13 @@
     </header>
 
     <main class="page-main">
-      <h1 class="page-main__title">Вязание на заказ</h1>
+      <h1 class="page-main__heading">Вязание на заказ</h1>
 
       <section class="order">
         <p class="order__slogan">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</p>
         <form class="order__form" action="https://echo.htmlacademy.ru">
           <fieldset class="order__list">
-            <legend class="order__title">Тип</legend>
+            <legend class="order__heading">Тип</legend>
             <label class="order__item">
               <input class="order__input" type="radio" name="type" value="accessory">
               <b class="order__value">Аксессуар для интерьера</b>
@@ -50,7 +51,7 @@
             </label>
           </fieldset>
           <fieldset class="order__list">
-            <legend class="order__title">Цвет</legend>
+            <legend class="order__heading">Цвет</legend>
             <label class="order__item">
               <input class="order__input" type="checkbox" name="white">
               <b class="order__value">Белый</b>
@@ -77,7 +78,7 @@
             </label>
           </fieldset>
           <fieldset class="order__list">
-            <legend class="order__title">ФИО</legend>
+            <legend class="order__heading">ФИО</legend>
             <label class="order__item">
               <b class="order__value">Имя:</b>
               <input class="order__input" type="text" name="first-name" placeholder="Введите ваше имя*">
@@ -92,19 +93,19 @@
             </label>
           </fieldset>
           <fieldset class="order__list">
-            <legend class="order__title">Тел</legend>
+            <legend class="order__heading">Тел</legend>
             <label class="order__item">
               <input class="order__input" type="tel" name="phone" placeholder="+7 ХХХ ХХ ХХ*">
             </label>
           </fieldset>
           <fieldset class="order__list">
-            <legend class="order__title">E-mail</legend>
+            <legend class="order__heading">E-mail</legend>
             <label class="order__item">
               <input class="order__input" type="email" name="email" placeholder="Ваш Email*">
             </label>
           </fieldset>
           <fieldset class="order__list">
-            <legend class="order__title">Доп</legend>
+            <legend class="order__heading">Доп</legend>
             <label class="order__item">
               <input class="order__input" type="textarea" name="extra" placeholder="Опишите все ваши пожелания к заказу">
             </label>
@@ -115,29 +116,6 @@
       </section>
     </main>
 
-    <footer class="page-footer">
-      <div class="page-footer__wrapper">
-        <a class="page-footer__logo">
-          <img class="page-footer__logo-image" src="" width="" height="" alt="Логотип Mishka">
-        </a>
-        <div class="page-footer__social social">
-          <ul class="social__list">
-            <li class="social__item">
-              <a class="social__link social__link--instagram">Instagram</a>
-            </li>
-            <li class="social__item">
-              <a class="social__link social__link--facebook">Facebook</a>
-            </li>
-            <li class="social__item">
-              <a class="social__link social__link--twitter">Twitter</a>
-            </li>
-          </ul>
-        </div>
-        <div class="page-footer__copyright copyright">
-          <b class="copyright__text">Разработано:</b>
-          <a class="copyright__link">HTML Academy</a>
-        </div>
-      </div>
-    </footer>
+    @@include("sections/footer.html")
   </body>
 </html>

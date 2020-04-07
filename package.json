@@ -1,31 +1,31 @@
 {
-  "name": "pink",
-  "version": "0.1.0",
-  "private": true,
-  "description": "Личный проект «Пинк» от HTML Academy",
-  "devDependencies": {
-    "autoprefixer": "6.7.x",
-    "grunt": "1.0.1",
-    "grunt-browser-sync": "2.2.0",
-    "grunt-contrib-less": "1.4.0",
-    "grunt-contrib-watch": "1.0.0",
-    "grunt-postcss": "0.8.0",
-    "@htmlacademy/editorconfig-cli": "0.1.x"
-  },
+  "name": "mishka",
+  "version": "1.0.0",
+  "description": "---",
+  "main": "gulpfile.js",
   "scripts": {
-    "test": "editorconfig-cli",
-    "build": "grunt less && grunt postcss",
-    "start": "npm run build && grunt serve"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "editorconfig-cli": [
-    "*.html",
-    "*.json",
-    "*.js",
-    "js/**/*.js",
-    "img/**/*.svg",
-    "less/**/*.less"
-  ],
-  "engines": {
-    "node": "6.10"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonMax404/mishka.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JasonMax404/mishka/issues"
+  },
+  "homepage": "https://github.com/JasonMax404/mishka#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-file-include": "^2.1.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-watch": "^5.0.1"
   }
 }
