@@ -1,0 +1,44 @@
+.week-product {
+  font-family: "OpenSans", "Arial", "sans-serif";
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.week-product__heading {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+
+.week-product__text {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  color: #63d1bb;
+}
+
+.week-product__description,
+.week-product__properti,
+.week-product__value {
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  color: #444444;
+}
+
+.week-product__price {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  color: #444444;
+}

@@ -1,0 +1,39 @@
+.reviews {
+  font-family: "OpenSans", "Arial", "sans-serif";
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #444444;
+}
+
+.reviews__heading {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+}
+
+.reviews__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.reviews__text {
+  padding: 0;
+  margin: 0;
+}
+
+.reviews__author-name,
+.reviews__author-email {
+  font-size: 17px;
+  line-height: 24px;
+  padding: 0;
+  margin: 0;
+}
+
+.reviews__author-name {
+  color: #000000;
+}

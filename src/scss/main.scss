@@ -1,19 +1,23 @@
-@import "blocks/button";
-
-body {
-  display: grid;
-  transition: all 0.2s ease-in;
-  animation-name: test;
+html {
+  scroll-behavior: smooth;
 }
 
-.page-header {
-  background-color: red;
+img {
+  width: 100%;
+  height: auto;
 }
 
-.page-main {
-  background-color: green;
-}
-
-.page-footer {
-  background-color: magenta;
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }

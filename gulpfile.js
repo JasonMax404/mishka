@@ -27,7 +27,7 @@ gulp.task('html', function(cb) {
 
 //Компиляция CSS
 gulp.task('scss', function(cb) {
-  return gulp.src('./src/scss/main.scss')
+  return gulp.src('./src/scss/style.scss')
     //Отлов ошибок и вывод уведомлений
     .pipe(plumber({
       errorHandler: notify.onError(function(err){
